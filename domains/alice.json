@@ -1,7 +1,8 @@
 {
   "user": {
     "username": "alice",
-    "github": "alice"
+    "github": "alice-dev",
+    "twitter": "alice_xyz"
   },
   "subdomain": "alice",
   "records": [
@@ -12,6 +13,12 @@
       "proxied": true
     },
     {
+      "type": "AAAA",
+      "name": "alice",
+      "value": "2606:4700:4700::1111",
+      "proxied": false
+    },
+    {
       "type": "CNAME",
       "name": "www.alice",
       "value": "alice.pages.dev",
@@ -20,7 +27,13 @@
     {
       "type": "TXT",
       "name": "_github-pages-challenge-alice",
-      "value": "abc123"
+      "value": "abc123xyz"
+    },
+    {
+      "type": "MX",
+      "name": "alice",
+      "value": "mail.alice.example",
+      "priority": 10
     }
   ]
 }
