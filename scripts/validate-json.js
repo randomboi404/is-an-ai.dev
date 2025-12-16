@@ -48,9 +48,15 @@ for (const file of files) {
         if (!data.user[k]) fail(`${file}: user.${k} required`);
     }
 
-    // subdomain
+    // subdomain (underscore allowed as requested)
     if (!/^[a-z0-9-_]+$/.test(data.subdomain)) {
         fail(`${file}: invalid subdomain`);
+    }
+
+    // filename must match subdomain
+    const expectedFile = `domains/${data.subdomain}.json`;
+    if (file !== expectedFile) {
+        fail(`${file}: filename must match subdomain (${data.subdomain}.json)`);
     }
 
     // records
@@ -67,6 +73,7 @@ for (const file of files) {
             "priority",
             "data",
         ];
+
         for (const k of Object.keys(r)) {
             if (!allowedKeys.includes(k)) {
                 fail(`${file}: invalid record key "${k}"`);
@@ -75,6 +82,10 @@ for (const file of files) {
 
         if (!ALLOWED_TYPES.includes(r.type)) {
             fail(`${file}: unsupported type ${r.type}`);
+        }
+
+        if (typeof r.name !== "string") {
+            fail(`${file}: record name is required`);
         }
 
         if (r.name.includes("*")) {
