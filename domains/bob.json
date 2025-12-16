@@ -1,0 +1,34 @@
+{
+  "user": {
+    "username": "charlie-green",
+    "github": "charlie-projects",
+    "twitter": "c_g_dev"
+  },
+  "subdomain": "charlie",
+  "records": [
+    {
+      "type": "A",
+      "name": "charlie",
+      "value": "203.0.113.7",
+      "proxied": true
+    },
+    {
+      "type": "A",
+      "name": "mail.charlie",
+      "value": "198.51.100.12",
+      "proxied": false
+    },
+    {
+      "type": "MX",
+      "name": "charlie",
+      "value": "mx1.charlie-mail.net",
+      "priority": 5
+    },
+    {
+      "type": "MX",
+      "name": "charlie",
+      "value": "mx2.charlie-mail.net",
+      "priority": 15
+    }
+  ]
+}
