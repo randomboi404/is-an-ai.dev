@@ -1,0 +1,26 @@
+{
+  "user": {
+    "username": "alice",
+    "github": "alice"
+  },
+  "subdomain": "alice",
+  "records": [
+    {
+      "type": "A",
+      "name": "alice",
+      "value": "1.2.3.4",
+      "proxied": true
+    },
+    {
+      "type": "CNAME",
+      "name": "www.alice",
+      "value": "alice.pages.dev",
+      "proxied": true
+    },
+    {
+      "type": "TXT",
+      "name": "_github-pages-challenge-alice",
+      "value": "abc123"
+    }
+  ]
+}
