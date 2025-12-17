@@ -9,6 +9,12 @@
             "name": "_discord.nilesh",
             "value": "dh=5124ad3233b32731947f9ea2951af8c5d536a4d0",
             "proxied": false
+        },
+        {
+            "type": "TXT",
+            "name": "_github-pages-challenge-thenil3sh.nilesh",
+            "value" : "31062db1face4a0b1814b8da51ef34",
+            "proxied" : false
         }
     ]
 }
