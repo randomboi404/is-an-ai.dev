@@ -1,0 +1,14 @@
+{
+    "owner": {
+        "username": "tester123",
+        "email": "test@example.com"
+    },
+    "records": {
+        "A": [
+            "192.0.2.1",
+            "192.0.2.2",
+            "192.0.2.3"
+        ]
+    },
+    "proxied": true
+}
