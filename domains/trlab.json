@@ -1,0 +1,17 @@
+{
+  "user": {
+    "username": "rochana-sadila"
+  },
+  "description": {
+    "purpose": "Portfolio Website"
+  },
+  "subdomain": "trlab",
+  "records": [
+    {
+      "type": "CNAME",
+      "name": "trlab",
+      "value": "b2683cdd4db01e4f.vercel-dns-017.com.",
+      "proxied": false
+    }
+  ]
+}
