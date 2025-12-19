@@ -13,6 +13,12 @@
             "type": "TXT",
             "name": "_github-pages-challenge-thenil3sh.nilesh",
             "value" : "31062db1face4a0b1814b8da51ef34"
+        },
+        {
+          "type": "CNAME",
+          "name": "nilesh",
+          "value": "thenil3sh.github.io",
+          "proxied": false
         }
     ]
 }
