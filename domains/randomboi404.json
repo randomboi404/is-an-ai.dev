@@ -1,10 +1,10 @@
 {
     "user": { "username": "randomboi4" },
-    "subdomain": "rbb",
+    "subdomain": "randomboi404",
     "records": [
         {
             "type": "URL",
-            "name": "rbb",
+            "name": "randomboi404",
             "value": "https://randomboi404.is-a.dev"
         }
     ]
