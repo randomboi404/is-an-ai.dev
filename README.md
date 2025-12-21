@@ -1,3 +1,11 @@
+
+# NOTE:
+**The purpose of this repository was for testing which has been successfully accomplished. This repository WILL be deleted on 5 January, 2026. Along with it, ALL the dns records associated shall also be removed. Please create a new PR in https://github.com/is-an-ai-dev/register if you do not want to loose your subdomain access.**
+
+
+
+
+
 # NOTE
 Our service will be releasing soon! Please avoid certaing a PR now and wait for few days as when we are done with testing, we'll be wiping all records and creating a new repo and finally publishing it. You may join one of our discord servers [Linux Bunker](https://discord.gg/Qw9m5SmzBJ) for further updates.
 
